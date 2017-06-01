@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPAugmentedRealitySDK_Example' do
+  pod 'SPAugmentedRealitySDK', :path => '../'
+
+  target 'SPAugmentedRealitySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
