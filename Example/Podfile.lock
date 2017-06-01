@@ -1,0 +1,16 @@
+PODS:
+  - SPAugmentedRealitySDK (0.1.0)
+
+DEPENDENCIES:
+  - SPAugmentedRealitySDK (from `../`)
+
+EXTERNAL SOURCES:
+  SPAugmentedRealitySDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SPAugmentedRealitySDK: 7d6b0207f94593eb7ff6561d1ae5653c8408d4dd
+
+PODFILE CHECKSUM: 18a346a097fe90512522932b7cd05eaaa1eeba5b
+
+COCOAPODS: 1.2.1

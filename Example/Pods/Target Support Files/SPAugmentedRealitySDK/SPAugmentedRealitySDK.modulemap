@@ -1,0 +1,6 @@
+framework module SPAugmentedRealitySDK {
+  umbrella header "SPAugmentedRealitySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

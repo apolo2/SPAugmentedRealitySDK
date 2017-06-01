@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D39137EE406C6DD7B52D42E51521B7 /* Pods-SPAugmentedRealitySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 450844D3C0BC18DA1B0ABED47BD06F9D /* Pods-SPAugmentedRealitySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2513D2EC4BD01E098574575B8EF9BF3D /* SPAugmentedRealitySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02D9BD2FBC813B7FE9177A6BE65BA7 /* SPAugmentedRealitySDK-dummy.m */; };
+		4D24B7AD3DF8236760CF6288920203FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		586AA85350DB8AFFC09576D5963E1D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75DAFB231A1779DA19FE31B9D1088E3A /* Pods-SPAugmentedRealitySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A7CD2182A8204C4B423BA067E31FB8 /* Pods-SPAugmentedRealitySDK_Tests-dummy.m */; };
+		8D6D90E723E9F70393F2CA0755A39304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1C99EF8EBEBE2CD34B84A67CD9BEF96 /* Pods-SPAugmentedRealitySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A907A09C565EB7704C3AFCF0F384D6BF /* Pods-SPAugmentedRealitySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA3813E83D64413C570AF0B58ABE293 /* SPAugmentedRealitySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8B8A5BA9905BEFCF54D099F3735271 /* SPAugmentedRealitySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCEB00F41EDFD1A300D49AF6 /* SPAugmentedReality.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEB00F21EDFD1A300D49AF6 /* SPAugmentedReality.h */; };
+		BCEB00F51EDFD1A300D49AF6 /* SPAugmentedReality.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB00F31EDFD1A300D49AF6 /* SPAugmentedReality.m */; };
+		BCEB00F61EDFD1A800D49AF6 /* SPAugmentedReality.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB00F31EDFD1A300D49AF6 /* SPAugmentedReality.m */; };
+		BCEB00F71EDFD1A900D49AF6 /* SPAugmentedReality.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB00F31EDFD1A300D49AF6 /* SPAugmentedReality.m */; };
+		EF38E283C0C520C04B713E28382417E4 /* Pods-SPAugmentedRealitySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC40268AE01DB988A777A62006B743CE /* Pods-SPAugmentedRealitySDK_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D24DCEB57545763A16D5309D4F722B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8B8AF59E1FE3652593FB4A0694911D;
+			remoteInfo = SPAugmentedRealitySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF9E0DF8C54E1C817010B6471893A12 /* SPAugmentedRealitySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SPAugmentedRealitySDK.modulemap; sourceTree = "<group>"; };
+		16F3AA44D4B9A8FF787724D40B453775 /* Pods-SPAugmentedRealitySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPAugmentedRealitySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3462D84017A446973218DCDCBA10627E /* SPAugmentedRealitySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAugmentedRealitySDK-prefix.pch"; sourceTree = "<group>"; };
+		376336653DD517A65A6B157B856E8146 /* Pods-SPAugmentedRealitySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPAugmentedRealitySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3BE1822D3721CDEAA5E606BBC8FD6C19 /* Pods_SPAugmentedRealitySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAugmentedRealitySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450844D3C0BC18DA1B0ABED47BD06F9D /* Pods-SPAugmentedRealitySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPAugmentedRealitySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4B6647279CEBC0B79F53953475D98DC5 /* Pods-SPAugmentedRealitySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPAugmentedRealitySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50C5B2DE807D4F563398F7D456E26C17 /* Pods-SPAugmentedRealitySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPAugmentedRealitySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6720535D0DF3A6A579382ECDAF865932 /* Pods-SPAugmentedRealitySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPAugmentedRealitySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA4375B881870D45D654080AA53672D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4E5D1C50EC2DD35FCDA756648271D9 /* Pods_SPAugmentedRealitySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAugmentedRealitySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7171A65D1E69EBCA07DC98B133BD8A62 /* Pods-SPAugmentedRealitySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPAugmentedRealitySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		735422BB522F4D7B8CA4A3E59A2C94B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F48C846E9A16843A249C2D86D3690F6 /* Pods-SPAugmentedRealitySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPAugmentedRealitySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F8B8A5BA9905BEFCF54D099F3735271 /* SPAugmentedRealitySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAugmentedRealitySDK-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A7CD2182A8204C4B423BA067E31FB8 /* Pods-SPAugmentedRealitySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPAugmentedRealitySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		A907A09C565EB7704C3AFCF0F384D6BF /* Pods-SPAugmentedRealitySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPAugmentedRealitySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		AF90AA7C3A127E8DEA36F3A8036B01B8 /* Pods-SPAugmentedRealitySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPAugmentedRealitySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D32B4CA3A5D636DC25F0A727C8877D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE934E216D7FCCBEE33E86C2DEE7705 /* SPAugmentedRealitySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPAugmentedRealitySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEB00F21EDFD1A300D49AF6 /* SPAugmentedReality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAugmentedReality.h; sourceTree = "<group>"; };
+		BCEB00F31EDFD1A300D49AF6 /* SPAugmentedReality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAugmentedReality.m; sourceTree = "<group>"; };
+		D9D9E30891ABE9DF7184351850B03A76 /* Pods-SPAugmentedRealitySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPAugmentedRealitySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC02D9BD2FBC813B7FE9177A6BE65BA7 /* SPAugmentedRealitySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAugmentedRealitySDK-dummy.m"; sourceTree = "<group>"; };
+		E087A7674E6A10D13252E6202885E0D5 /* Pods-SPAugmentedRealitySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPAugmentedRealitySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E44AE8724401E3047C7DC0CCC59F2276 /* Pods-SPAugmentedRealitySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SPAugmentedRealitySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		EC40268AE01DB988A777A62006B743CE /* Pods-SPAugmentedRealitySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPAugmentedRealitySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F058B36E4A8FB30B9C983DEB93B7BB4C /* Pods-SPAugmentedRealitySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPAugmentedRealitySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F1D6D140E1984798FF586EFE42196209 /* Pods-SPAugmentedRealitySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPAugmentedRealitySDK_Example-resources.sh"; sourceTree = "<group>"; };
+		F564F41F4DCBF37F6497E33BF6C857F3 /* Pods-SPAugmentedRealitySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SPAugmentedRealitySDK_Example.modulemap"; sourceTree = "<group>"; };
+		FEDB1B81838BBC93784A2BAEE33A6C7F /* SPAugmentedRealitySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAugmentedRealitySDK.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E2AA97296712E77046A4E6E410A9A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6D90E723E9F70393F2CA0755A39304 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFBADCB7740E5698DE2A863B850F63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D24B7AD3DF8236760CF6288920203FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C34BC588979F24F4FAB64AE23966D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AA85350DB8AFFC09576D5963E1D67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326B316E7D7EAD9CA80703E2EB40583E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E5D1C50EC2DD35FCDA756648271D9 /* Pods_SPAugmentedRealitySDK_Example.framework */,
+				3BE1822D3721CDEAA5E606BBC8FD6C19 /* Pods_SPAugmentedRealitySDK_Tests.framework */,
+				BAE934E216D7FCCBEE33E86C2DEE7705 /* SPAugmentedRealitySDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391CC387B9313D9297704EB3915BD695 /* SPAugmentedRealitySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AACE81B5A66DBB374A20928E7858D2B3 /* Classes */,
+			);
+			path = SPAugmentedRealitySDK;
+			sourceTree = "<group>";
+		};
+		3BF034672011D0214925596AB9C291B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D32B4CA3A5D636DC25F0A727C8877D /* Info.plist */,
+				0AF9E0DF8C54E1C817010B6471893A12 /* SPAugmentedRealitySDK.modulemap */,
+				FEDB1B81838BBC93784A2BAEE33A6C7F /* SPAugmentedRealitySDK.xcconfig */,
+				DC02D9BD2FBC813B7FE9177A6BE65BA7 /* SPAugmentedRealitySDK-dummy.m */,
+				3462D84017A446973218DCDCBA10627E /* SPAugmentedRealitySDK-prefix.pch */,
+				7F8B8A5BA9905BEFCF54D099F3735271 /* SPAugmentedRealitySDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SPAugmentedRealitySDK";
+			sourceTree = "<group>";
+		};
+		47A67F5A4197DC39C1B4768B87A8C479 /* SPAugmentedRealitySDK */ = {
+			isa = PBXGroup;
+			children = (
+				391CC387B9313D9297704EB3915BD695 /* SPAugmentedRealitySDK */,
+				3BF034672011D0214925596AB9C291B0 /* Support Files */,
+			);
+			name = SPAugmentedRealitySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AD15291948F18117078A600B5BDDEF73 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				326B316E7D7EAD9CA80703E2EB40583E /* Products */,
+				910100C59E9F019BE9CE7629545104D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		910100C59E9F019BE9CE7629545104D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14DDB99E5AA96C80F3E02532EE50AC9 /* Pods-SPAugmentedRealitySDK_Example */,
+				F58A0BBBAB74D8750A27F07CF2F53C18 /* Pods-SPAugmentedRealitySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AACE81B5A66DBB374A20928E7858D2B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB00F21EDFD1A300D49AF6 /* SPAugmentedReality.h */,
+				BCEB00F31EDFD1A300D49AF6 /* SPAugmentedReality.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD15291948F18117078A600B5BDDEF73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A67F5A4197DC39C1B4768B87A8C479 /* SPAugmentedRealitySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E14DDB99E5AA96C80F3E02532EE50AC9 /* Pods-SPAugmentedRealitySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4375B881870D45D654080AA53672D /* Info.plist */,
+				F564F41F4DCBF37F6497E33BF6C857F3 /* Pods-SPAugmentedRealitySDK_Example.modulemap */,
+				16F3AA44D4B9A8FF787724D40B453775 /* Pods-SPAugmentedRealitySDK_Example-acknowledgements.markdown */,
+				E087A7674E6A10D13252E6202885E0D5 /* Pods-SPAugmentedRealitySDK_Example-acknowledgements.plist */,
+				EC40268AE01DB988A777A62006B743CE /* Pods-SPAugmentedRealitySDK_Example-dummy.m */,
+				7171A65D1E69EBCA07DC98B133BD8A62 /* Pods-SPAugmentedRealitySDK_Example-frameworks.sh */,
+				F1D6D140E1984798FF586EFE42196209 /* Pods-SPAugmentedRealitySDK_Example-resources.sh */,
+				A907A09C565EB7704C3AFCF0F384D6BF /* Pods-SPAugmentedRealitySDK_Example-umbrella.h */,
+				AF90AA7C3A127E8DEA36F3A8036B01B8 /* Pods-SPAugmentedRealitySDK_Example.debug.xcconfig */,
+				376336653DD517A65A6B157B856E8146 /* Pods-SPAugmentedRealitySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-SPAugmentedRealitySDK_Example";
+			path = "Target Support Files/Pods-SPAugmentedRealitySDK_Example";
+			sourceTree = "<group>";
+		};
+		F58A0BBBAB74D8750A27F07CF2F53C18 /* Pods-SPAugmentedRealitySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				735422BB522F4D7B8CA4A3E59A2C94B2 /* Info.plist */,
+				E44AE8724401E3047C7DC0CCC59F2276 /* Pods-SPAugmentedRealitySDK_Tests.modulemap */,
+				D9D9E30891ABE9DF7184351850B03A76 /* Pods-SPAugmentedRealitySDK_Tests-acknowledgements.markdown */,
+				7F48C846E9A16843A249C2D86D3690F6 /* Pods-SPAugmentedRealitySDK_Tests-acknowledgements.plist */,
+				A6A7CD2182A8204C4B423BA067E31FB8 /* Pods-SPAugmentedRealitySDK_Tests-dummy.m */,
+				F058B36E4A8FB30B9C983DEB93B7BB4C /* Pods-SPAugmentedRealitySDK_Tests-frameworks.sh */,
+				50C5B2DE807D4F563398F7D456E26C17 /* Pods-SPAugmentedRealitySDK_Tests-resources.sh */,
+				450844D3C0BC18DA1B0ABED47BD06F9D /* Pods-SPAugmentedRealitySDK_Tests-umbrella.h */,
+				6720535D0DF3A6A579382ECDAF865932 /* Pods-SPAugmentedRealitySDK_Tests.debug.xcconfig */,
+				4B6647279CEBC0B79F53953475D98DC5 /* Pods-SPAugmentedRealitySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-SPAugmentedRealitySDK_Tests";
+			path = "Target Support Files/Pods-SPAugmentedRealitySDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		368B446911FABB250F6B9C7744AC7D96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C99EF8EBEBE2CD34B84A67CD9BEF96 /* Pods-SPAugmentedRealitySDK_Example-umbrella.h in Headers */,
+				BCEB00F41EDFD1A300D49AF6 /* SPAugmentedReality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620ED66A550189A6BCA37418585F371D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA3813E83D64413C570AF0B58ABE293 /* SPAugmentedRealitySDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAB5F9BD880C47457DDF7D62DB8351 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D39137EE406C6DD7B52D42E51521B7 /* Pods-SPAugmentedRealitySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DCC278ED1DD6923EFFE6BEE3E4F018C /* Pods-SPAugmentedRealitySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6692747565F4E440D330C435C620EF /* Build configuration list for PBXNativeTarget "Pods-SPAugmentedRealitySDK_Example" */;
+			buildPhases = (
+				8ACA3BA8DB92277ADC3A40B26ED89F4B /* Sources */,
+				FA0C34BC588979F24F4FAB64AE23966D /* Frameworks */,
+				368B446911FABB250F6B9C7744AC7D96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A457E3477EEDB98D03E090D280BA7329 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPAugmentedRealitySDK_Example";
+			productName = "Pods-SPAugmentedRealitySDK_Example";
+			productReference = 6D4E5D1C50EC2DD35FCDA756648271D9 /* Pods_SPAugmentedRealitySDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B8B8AF59E1FE3652593FB4A0694911D /* SPAugmentedRealitySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC0A0CA09331EBF3E4819C56BAA45AF /* Build configuration list for PBXNativeTarget "SPAugmentedRealitySDK" */;
+			buildPhases = (
+				E89CB8F8B5C27772AED2C2D327092928 /* Sources */,
+				6DFBADCB7740E5698DE2A863B850F63E /* Frameworks */,
+				620ED66A550189A6BCA37418585F371D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPAugmentedRealitySDK;
+			productName = SPAugmentedRealitySDK;
+			productReference = BAE934E216D7FCCBEE33E86C2DEE7705 /* SPAugmentedRealitySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5A349C45D9F4CD0290E14CB63B7064A /* Pods-SPAugmentedRealitySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C73CAA710206B09D0615EF19BE87A8 /* Build configuration list for PBXNativeTarget "Pods-SPAugmentedRealitySDK_Tests" */;
+			buildPhases = (
+				90E10CE85A7922C151A3F03F7FE6009C /* Sources */,
+				0E2AA97296712E77046A4E6E410A9A84 /* Frameworks */,
+				79AAB5F9BD880C47457DDF7D62DB8351 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SPAugmentedRealitySDK_Tests";
+			productName = "Pods-SPAugmentedRealitySDK_Tests";
+			productReference = 3BE1822D3721CDEAA5E606BBC8FD6C19 /* Pods_SPAugmentedRealitySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 326B316E7D7EAD9CA80703E2EB40583E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8B8AF59E1FE3652593FB4A0694911D /* SPAugmentedRealitySDK */,
+				2DCC278ED1DD6923EFFE6BEE3E4F018C /* Pods-SPAugmentedRealitySDK_Example */,
+				C5A349C45D9F4CD0290E14CB63B7064A /* Pods-SPAugmentedRealitySDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ACA3BA8DB92277ADC3A40B26ED89F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB00F51EDFD1A300D49AF6 /* SPAugmentedReality.m in Sources */,
+				EF38E283C0C520C04B713E28382417E4 /* Pods-SPAugmentedRealitySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E10CE85A7922C151A3F03F7FE6009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB00F71EDFD1A900D49AF6 /* SPAugmentedReality.m in Sources */,
+				75DAFB231A1779DA19FE31B9D1088E3A /* Pods-SPAugmentedRealitySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89CB8F8B5C27772AED2C2D327092928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB00F61EDFD1A800D49AF6 /* SPAugmentedReality.m in Sources */,
+				2513D2EC4BD01E098574575B8EF9BF3D /* SPAugmentedRealitySDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A457E3477EEDB98D03E090D280BA7329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPAugmentedRealitySDK;
+			target = 5B8B8AF59E1FE3652593FB4A0694911D /* SPAugmentedRealitySDK */;
+			targetProxy = 83D24DCEB57545763A16D5309D4F722B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0897BB48389E2499E26B4A34F0219279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDB1B81838BBC93784A2BAEE33A6C7F /* SPAugmentedRealitySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPAugmentedRealitySDK/SPAugmentedRealitySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPAugmentedRealitySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPAugmentedRealitySDK/SPAugmentedRealitySDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SPAugmentedRealitySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D3E938DE6D613C02C2229B4A675F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376336653DD517A65A6B157B856E8146 /* Pods-SPAugmentedRealitySDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Example/Pods-SPAugmentedRealitySDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPAugmentedRealitySDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C72996D8C38EBBF4EF906DDA49C3A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6647279CEBC0B79F53953475D98DC5 /* Pods-SPAugmentedRealitySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Tests/Pods-SPAugmentedRealitySDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPAugmentedRealitySDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893BD70D883928C5E00DBBD898E64BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDB1B81838BBC93784A2BAEE33A6C7F /* SPAugmentedRealitySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPAugmentedRealitySDK/SPAugmentedRealitySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPAugmentedRealitySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPAugmentedRealitySDK/SPAugmentedRealitySDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SPAugmentedRealitySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4892EACD3224C05EE895233608ED2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF90AA7C3A127E8DEA36F3A8036B01B8 /* Pods-SPAugmentedRealitySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Example/Pods-SPAugmentedRealitySDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPAugmentedRealitySDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9384F3B7DBACCB38A4FFC2D0C6E4F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6720535D0DF3A6A579382ECDAF865932 /* Pods-SPAugmentedRealitySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPAugmentedRealitySDK_Tests/Pods-SPAugmentedRealitySDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPAugmentedRealitySDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6692747565F4E440D330C435C620EF /* Build configuration list for PBXNativeTarget "Pods-SPAugmentedRealitySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4892EACD3224C05EE895233608ED2BE /* Debug */,
+				2D3E938DE6D613C02C2229B4A675F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C73CAA710206B09D0615EF19BE87A8 /* Build configuration list for PBXNativeTarget "Pods-SPAugmentedRealitySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9384F3B7DBACCB38A4FFC2D0C6E4F7C /* Debug */,
+				6C72996D8C38EBBF4EF906DDA49C3A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC0A0CA09331EBF3E4819C56BAA45AF /* Build configuration list for PBXNativeTarget "SPAugmentedRealitySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0897BB48389E2499E26B4A34F0219279 /* Debug */,
+				893BD70D883928C5E00DBBD898E64BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
