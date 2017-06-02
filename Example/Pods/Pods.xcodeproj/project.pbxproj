@@ -55,8 +55,6 @@
 		B6D32B4CA3A5D636DC25F0A727C8877D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE934E216D7FCCBEE33E86C2DEE7705 /* SPAugmentedRealitySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPAugmentedRealitySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEB00F91EDFD2EC00D49AF6 /* CraftARAugmentedRealitySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CraftARAugmentedRealitySDK.framework; sourceTree = "<group>"; };
-		BCEB00FC1EDFD3A400D49AF6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		BCEB00FD1EDFD3AB00D49AF6 /* CraftARResourcesAR.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CraftARResourcesAR.bundle; sourceTree = "<group>"; };
 		BCEB00FE1EDFD3FA00D49AF6 /* SPAugmentedReality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAugmentedReality.h; sourceTree = "<group>"; };
 		BCEB00FF1EDFD3FA00D49AF6 /* SPAugmentedReality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAugmentedReality.m; sourceTree = "<group>"; };
 		D9D9E30891ABE9DF7184351850B03A76 /* Pods-SPAugmentedRealitySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPAugmentedRealitySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 		391CC387B9313D9297704EB3915BD695 /* SPAugmentedRealitySDK */ = {
 			isa = PBXGroup;
 			children = (
-				BCEB00FB1EDFD3A400D49AF6 /* Assets */,
 				AACE81B5A66DBB374A20928E7858D2B3 /* Classes */,
 			);
 			path = SPAugmentedRealitySDK;
@@ -194,15 +191,6 @@
 				BCEB00F91EDFD2EC00D49AF6 /* CraftARAugmentedRealitySDK.framework */,
 			);
 			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		BCEB00FB1EDFD3A400D49AF6 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				BCEB00FD1EDFD3AB00D49AF6 /* CraftARResourcesAR.bundle */,
-				BCEB00FC1EDFD3A400D49AF6 /* .gitkeep */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {

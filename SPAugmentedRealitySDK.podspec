@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SPAugmentedRealitySDK/Classes/**/*'
   s.ios.vendored_frameworks = 'Frameworks/CraftARAugmentedRealitySDK.framework'
-  s.resource_bundles = {
-    'SPAugmentedRealitySDK' => ['SPAugmentedRealitySDK/Assets/*.bundle']
-  }
+  # s.resource_bundles = {
+  #  'SPAugmentedRealitySDK' => ['SPAugmentedRealitySDK/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
